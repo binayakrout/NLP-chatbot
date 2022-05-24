@@ -1,0 +1,1433 @@
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:45:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:45:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:45:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:46:18] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:46:21] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:46:21] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:54:47] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:54:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:54:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:54:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:customNER:entered get_ner
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 15:55:11] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:10:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:10:43] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi to mumbai
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi to mumbai
+INFO:customNER:entered get_ner
+INFO:main:Fetching final response of the input data: show me the fares from delhi to mumbai
+INFO:main:Final response of the input data: These are the flights and price I could findfrom delhi to mumbai: Frontier Airlines: 900 USD, American Airlines: 950 USD, Breeze Airlines: 800 USD, Alaska Airlines: 150 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:11:00] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: All flights from newyork to boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: All flights from newyork to boston
+INFO:customNER:entered get_ner
+INFO:main:Fetching final response of the input data: All flights from newyork to boston
+INFO:main:Final response of the input data: Below are the flights from newyork to boston :Frontier Airlines at 5PM, JetBlue at 12PM, American Airlines at 2PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:11:38] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: is there a plane from boston to washington
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: is there a plane from boston to washington
+INFO:customNER:entered get_ner
+INFO:main:Fetching final response of the input data: is there a plane from boston to washington
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to washington: Airbus A319: Airbus A319, Boeing 747, Boeing 777, Boeing 737 NG.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:13:04] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi
+INFO:customNER:entered get_ner
+INFO:main:Fetching final response of the input data: show me the fares from delhi
+INFO:main:Final response of the input data: These are the flights and price I could findfrom delhi to : Panam Airlines: 550 USD, Alaska Airlines: 800 USD, Frontier Airlines: 200 USD, JetBlue: 650 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:13:29] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what is the arrival time in sanfrancisco for the 755 am flight leaving washington
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000267E7C0C430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what is the arrival time in sanfrancisco for the 755 am flight leaving washington
+INFO:customNER:entered get_ner
+INFO:main:Fetching final response of the input data: what is the arrival time in sanfrancisco for the 755 am flight leaving washington
+INFO:main:Final response of the input data: Here are the timings and flights available for today from washington to sanfrancisco: Breeze Airlines at 4PM, American Airlines at 7PM, JetBlue at 10AM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:14:09] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:15:54] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:15:54] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:15:56] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:15:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:26:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:26:30] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:26:30] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from  to  :Frontier Airlines at 12PM, JetBlue at 9PM, Alaska Airlines at 7PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:26:35] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:40:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:40:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:40:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:40:55] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi to mumbai
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi to mumbai
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': 'mumbai'}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi to mumbai
+INFO:dialogue:Inside Dialogue Flow
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:41:11] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:13] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi to mumbai
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi to mumbai
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': 'mumbai'}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi to mumbai
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom delhi to mumbai: United Airlines: 600 USD, Frontier Airlines: 650 USD, Virgin Airlines: 500 USD, JetBlue: 750 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:46] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': ''}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Will you please enter source and destination in the details?
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:42:57] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:43:08] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:43:13] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:43:13] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:43:15] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:43:15] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:46:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:46:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:46:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:46:46] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: boston
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'boston', 'dest': 'boston'}}
+INFO:main:Fetching final response of the input data: boston
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from boston to boston :Frontier Airlines at 3PM, American Airlines at 12PM, Panam Airlines at 10PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 16:47:17] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:13:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:13:55] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:13:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:14:07] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '8 am', 'DATE': 'august', 'source': 'boston', 'dest': 'denver'}}
+INFO:main:Fetching final response of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to denver: Boeing 777: Boeing 777, Airbus A319, Airbus A330, Boeing 737 NG.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:15:52] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: dude
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: dude
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: dude
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:16:57] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '8 am', 'DATE': 'august', 'source': 'boston', 'dest': 'denver'}}
+INFO:main:Fetching final response of the input data: what kind of aircraft does delta fly before 8 am on august second from boston to denver
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to denver: Boeing 737 NG: Boeing 737 NG, Airbus A319, Boeing 747, Airbus A330.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:17:25] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:17:42] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Thank you
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Thank you
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Thank you
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:18:13] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thanks
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thanks
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thanks
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:04] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:26] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:26] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:27] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:19:27] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\check_history.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:41:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:41:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:41:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:41:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:41:29] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': 'boston', 'dest': 'oakland'}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to oakland for 2 pm time :Boeing 777, Airbus 550M, Airbus A330.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:44:20] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 1 pm from boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 1 pm from boston
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '1 pm', 'source': 'boston', 'dest': ''}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 1 pm from boston
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:44:48] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: dubai
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: dubai
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'dubai', 'dest': 'dubai'}}
+INFO:main:Fetching final response of the input data: dubai
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from dubai to dubai :Breeze Airlines at 11PM, JetBlue at 7PM, Panam Airlines at 1PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:44:56] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:49:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:49:17] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:49:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:49:25] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': 'boston', 'dest': 'oakland'}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 2 pm from boston to oakland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to oakland for 2 pm time :Boeing 777, Boeing 007, Airbus 550M.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:49:33] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: How many flights are leaving after 2 pm from boston to oakland
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: How many flights are leaving after 2 pm from boston to oakland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': 'boston', 'dest': 'oakland'}}
+INFO:main:Fetching final response of the input data: How many flights are leaving after 2 pm from boston to oakland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_quantity
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry, I didn't understand. I can only help you with Flight Details, Flight Fares, Flight timings and types of Flights. Please enter the correct information.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:50:02] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: List all flights leaving after 1 am from ireland to buffalo
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: List all flights leaving after 1 am from ireland to buffalo
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '1 am', 'source': 'ireland', 'dest': 'buffalo'}}
+INFO:main:Fetching final response of the input data: List all flights leaving after 1 am from ireland to buffalo
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from ireland to buffalo for 1 am time :Frontier Airlines, Air India, United Airlines.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:51:00] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: list flights leaving from ireland
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000220B298E670> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: list flights leaving from ireland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'ireland', 'dest': ''}}
+INFO:main:Fetching final response of the input data: list flights leaving from ireland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:51:30] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: india
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000220B9041160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: india
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'india', 'dest': 'india'}}
+INFO:main:Fetching final response of the input data: india
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from ireland to india :United Airlines at 5PM, Alaska Airlines at 3PM, Virgin Airlines at 6PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:51:42] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thank you
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thank you
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thank you
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:51:58] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:52:30] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:52:30] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:57:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:57:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:03] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: show me the fares
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:25] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:41] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:41] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:42] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:42] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thank you
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thank you
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thank you
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 18:58:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:03:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:03:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thank you
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thank you
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thank you
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:03:14] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the flights
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the flights
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: show me the flights
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:03:34] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the flights to delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the flights to delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'delhi'}}
+INFO:main:Fetching final response of the input data: show me the flights to delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:03:51] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: mumbai
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: mumbai
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'mumbai', 'dest': 'mumbai'}}
+INFO:main:Fetching final response of the input data: mumbai
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from mumbai to delhi :United Airlines at 3PM, Breeze Airlines at 1PM, British Airways at 10PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:04:01] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:04:08] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:04:08] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug: * Detected change in 'F:\\Classes\\NLP\\code\\NLP_group\\dialogue.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:11:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:11:30] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hello
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hello
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hello
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:11:38] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what flights are available from pittsburgh to baltimore on thursday morning
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what flights are available from pittsburgh to baltimore on thursday morning
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'DATE': 'thursday', 'TIME': 'morning', 'source': 'pittsburgh', 'dest': 'baltimore'}}
+INFO:main:Fetching final response of the input data: what flights are available from pittsburgh to baltimore on thursday morning
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from pittsburgh to baltimore for morning time :Panam Airlines, British Airways, Frontier Airlines.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:12:16] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Can i please get the price of flights between Dublin to Kolkata
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Can i please get the price of flights between Dublin to Kolkata
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'Dublin', 'dest': 'Kolkata'}}
+INFO:main:Fetching final response of the input data: Can i please get the price of flights between Dublin to Kolkata
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom Dublin to Kolkata: Breeze Airlines: 400 USD, British Airways: 500 USD, JetBlue: 950 USD, Alaska Airlines: 350 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:12:54] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: What type of flights available from delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: What type of flights available from delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': ''}}
+INFO:main:Fetching final response of the input data: What type of flights available from delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:13:37] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: sanfrancisco
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002B557C42280> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: sanfrancisco
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'ORG': 'sanfrancisco', 'source': 'sanfrancisco', 'dest': 'sanfrancisco'}}
+INFO:main:Fetching final response of the input data: sanfrancisco
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from delhi to sanfrancisco :American Airlines at 8PM, Alaska Airlines at 3PM, Virgin Airlines at 10PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:13:59] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thanks
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002B55AA685E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thanks
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thanks
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:14:10] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:17:18] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:17:18] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:17:59] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:17:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hello
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hello
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hello
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:18:56] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data:  i need a flight tomorrow from columbus to minneapolis
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data:  i need a flight tomorrow from columbus to minneapolis
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'columbus', 'dest': 'minneapolis'}}
+INFO:main:Fetching final response of the input data:  i need a flight tomorrow from columbus to minneapolis
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from columbus to minneapolis :American Airlines at 3PM, Virgin Airlines at 10PM, British Airways at 9PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:19:17] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what airplane types fly from netherlands to baltimore
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what airplane types fly from netherlands to baltimore
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'netherlands', 'dest': 'baltimore'}}
+INFO:main:Fetching final response of the input data: what airplane types fly from netherlands to baltimore
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from netherlands to baltimore: Airbus A319: Airbus A319, Airbus 550M, Airbus A330, Boeing 777.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:20:07] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what round trip tickets are there from cleveland to miami that arrive before 4 pm
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what round trip tickets are there from cleveland to miami that arrive before 4 pm
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '4 pm', 'source': 'cleveland', 'dest': 'miami'}}
+INFO:main:Fetching final response of the input data: what round trip tickets are there from cleveland to miami that arrive before 4 pm
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from cleveland to miami for 4 pm time :JetBlue, ABC Airlines, British Airways.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:20:59] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi to sanfrancisco
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi to sanfrancisco
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': 'sanfrancisco'}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi to sanfrancisco
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom delhi to sanfrancisco: United Airlines: 300 USD, Panam Airlines: 150 USD, Frontier Airlines: 200 USD, ABC Airlines: 900 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:21:27] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: could you please tell me the airlines that fly from toronto to sandiego
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: could you please tell me the airlines that fly from toronto to sandiego
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'toronto', 'dest': 'sandiego'}}
+INFO:main:Fetching final response of the input data: could you please tell me the airlines that fly from toronto to sandiego
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airline
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the flights available from toronto to sandiego: ABC Airlines, Virgin Airlines, United Airlines, American Airlines.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:22:02] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the schedule for airlines leaving pittsburgh going to sanfrancisco for next monday
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the schedule for airlines leaving pittsburgh going to sanfrancisco for next monday
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'DATE': 'next monday', 'source': 'pittsburgh', 'dest': 'sanfrancisco'}}
+INFO:main:Fetching final response of the input data: show me the schedule for airlines leaving pittsburgh going to sanfrancisco for next monday
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight_time
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the timings and flights available for today from pittsburgh to sanfrancisco: Virgin Airlines at 5PM, ABC Airlines at 7PM, United Airlines at 9AM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:22:29] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: please list the flight times from pittsburgh to newark
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: please list the flight times from pittsburgh to newark
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'pittsburgh', 'dest': 'newark'}}
+INFO:main:Fetching final response of the input data: please list the flight times from pittsburgh to newark
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight_time
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the timings and flights available for today from pittsburgh to newark: Frontier Airlines at 1PM, JetBlue at 5PM, ABC Airlines at 12AM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:22:59] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: please list the flight times from pittsburgh to newark at 5AM
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: please list the flight times from pittsburgh to newark at 5AM
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'pittsburgh', 'dest': 'newark'}}
+INFO:main:Fetching final response of the input data: please list the flight times from pittsburgh to newark at 5AM
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight_time
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the timings and flights available for today from pittsburgh to newark: British Airways at 1PM, Virgin Airlines at 2PM, Panam Airlines at 10AM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:14] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:47] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:47] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:49] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:49] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:23:54] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: please list the flight times from pittsburgh to newark
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: please list the flight times from pittsburgh to newark
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'pittsburgh', 'dest': 'newark'}}
+INFO:main:Fetching final response of the input data: please list the flight times from pittsburgh to newark
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight_time
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the timings and flights available for today from pittsburgh to newark: Panam Airlines at 1PM, JetBlue at 7PM, Alaska Airlines at 9AM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:24:14] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data:  all flights from boston to Kolkata
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data:  all flights from boston to Kolkata
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'boston', 'dest': 'Kolkata'}}
+INFO:main:Fetching final response of the input data:  all flights from boston to Kolkata
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from boston to Kolkata :JetBlue at 4PM, ABC Airlines at 11PM, Frontier Airlines at 6PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:24:54] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: cheapest airfare from surrey to orlando
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: cheapest airfare from surrey to orlando
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'surrey', 'dest': 'orlando'}}
+INFO:main:Fetching final response of the input data: cheapest airfare from surrey to orlando
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom surrey to orlando: JetBlue: 900 USD, United Airlines: 300 USD, American Airlines: 250 USD, Alaska Airlines: 650 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:25:42] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft flies from washington to delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft flies from washington to delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'washington', 'dest': 'delhi'}}
+INFO:main:Fetching final response of the input data: what type of aircraft flies from washington to delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from washington to delhi: Airbus A320 family: Airbus A320 family, Boeing 007, Airbus A3303, Airbus 550M.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:26:48] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Thanks
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Thanks
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Thanks
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:26:58] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:28:40] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:28:40] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:28:42] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:28:42] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:29:04] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi to mumbai
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi to mumbai
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': 'mumbai'}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi to mumbai
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom delhi to mumbai: United Airlines: 850 USD, British Airways: 550 USD, Air India: 300 USD, JetBlue: 250 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:29:08] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: all flights from boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: all flights from boston
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'boston', 'dest': ''}}
+INFO:main:Fetching final response of the input data: all flights from boston
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:29:27] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: i want to go to Kolkata
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: i want to go to Kolkata
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'Kolkata'}}
+INFO:main:Fetching final response of the input data: i want to go to Kolkata
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from boston to Kolkata :United Airlines at 5PM, Panam Airlines at 7PM, Virgin Airlines at 3PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:29:53] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me price to ireland
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me price to ireland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'ireland'}}
+INFO:main:Fetching final response of the input data: show me price to ireland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:30:42] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: india
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: india
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'india', 'dest': 'india'}}
+INFO:main:Fetching final response of the input data: india
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom india to ireland: American Airlines: 700 USD, Panam Airlines: 150 USD, Virgin Airlines: 800 USD, ABC Airlines: 400 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:31:08] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: types of flights
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: types of flights
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: types of flights
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_ground_service
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry, I didn't understand. I can only help you with Flight Details, Flight Fares, Flight timings and types of Flights. Please enter the correct information.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:31:40] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 2 pm
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 2 pm
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 2 pm
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:32:12] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 2 pm from boston to uk
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 2 pm from boston to uk
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': 'boston', 'dest': 'uk'}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 2 pm from boston to uk
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to uk for 2 pm time :Airbus A330, Airbus 550M, Boeing 777.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:32:33] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: what type of aircraft leaving after 2 pm from boston to India
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: what type of aircraft leaving after 2 pm from boston to India
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'TIME': '2 pm', 'source': 'boston', 'dest': 'India'}}
+INFO:main:Fetching final response of the input data: what type of aircraft leaving after 2 pm from boston to India
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_aircraft
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Here are the list of types of flights used from boston to India for 2 pm time :Boeing 007, Boeing 747, Airbus 550M.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:32:51] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: bye
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: bye
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: bye
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:33:07] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:33] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:33] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:35] "GET /?home=Click+for+Bot+Assistant HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:40] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me the fares from delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me the fares from delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': ''}}
+INFO:main:Fetching final response of the input data: show me the fares from delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:49] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hello
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hello
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hello
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:35:56] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: boston
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'boston', 'dest': 'boston'}}
+INFO:main:Fetching final response of the input data: boston
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:36:19] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: please provide me flights from delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: please provide me flights from delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': ''}}
+INFO:main:Fetching final response of the input data: please provide me flights from delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:36:53] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: boston
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: boston
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'boston', 'dest': 'boston'}}
+INFO:main:Fetching final response of the input data: boston
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from delhi to boston :Alaska Airlines at 9PM, Virgin Airlines at 12PM, United Airlines at 2PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:37:00] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thanks
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thanks
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thanks
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:37:07] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:37:36] "POST /quit HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 19:37:36] "[33mFinal=QuitGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:36:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:36:50] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:37:27] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me flights for delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me flights for delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'delhi', 'dest': ''}}
+INFO:main:Fetching final response of the input data: show me flights for delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the destination
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:38:06] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: uk
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: uk
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'uk'}}
+INFO:main:Fetching final response of the input data: uk
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Below are the flights from delhi to uk :American Airlines at 11PM, Frontier Airlines at 6PM, Air India at 8PM.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:38:22] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me fares to london
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me fares to london
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'london'}}
+INFO:main:Fetching final response of the input data: show me fares to london
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:38:44] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: ireland
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001CFB1D56790> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: ireland
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'ireland', 'dest': 'ireland'}}
+INFO:main:Fetching final response of the input data: ireland
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom ireland to london: Frontier Airlines: 700 USD, American Airlines: 600 USD, Alaska Airlines: 500 USD, Virgin Airlines: 150 USD.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:38:56] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thank you
+INFO:get_user_intent:Getting the intent model for prediction
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001CFB220FDC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has experimental_relax_shapes=True option that relaxes argument shapes that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thank you
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thank you
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:39:43] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: bye
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: bye
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: bye
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:39:55] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: Bye
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: Bye
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: Bye
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_flight
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Sorry!! Please enter the source and destination in your details
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:40:01] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: thanks
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: thanks
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: thanks
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:40:16] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: cheers
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: cheers
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: cheers
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: farewell
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Thank you for using ATIS chat bot! Have a good day. Please click the Quit button to exit.
+INFO:werkzeug:127.0.0.1 - - [24/May/2022 21:41:13] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 810-141-374
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: hi
+INFO:get_user_intent:Getting the intent model for prediction
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: hi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': ''}}
+INFO:main:Fetching final response of the input data: hi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Intent is: greetings
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Hello! I am Air Travel Information Bot. I can help you with flight details, airfares, type of flights.
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:37] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: show me fares to delhi
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: show me fares to delhi
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': '', 'dest': 'delhi'}}
+INFO:main:Fetching final response of the input data: show me fares to delhi
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: Please enter the source
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:47] "POST /chat HTTP/1.1" 200 -
+INFO:main:Received input data
+INFO:main:Fetching Intent of the input data: russia
+INFO:get_user_intent:Getting the intent model for prediction
+INFO:get_user_intent:End of Intent prediction
+INFO:main:Fetching Named-Entities of the input data: russia
+INFO:customNER:entered get_ner
+INFO:customNER:All the required entities have been fetched: {'Entities': {'source': 'russia', 'dest': 'russia'}}
+INFO:main:Fetching final response of the input data: russia
+INFO:dialogue:Inside Dialogue Flow
+INFO:dialogue:Checking other intents by calling get_intents and fetching the NERs from get_ner method
+INFO:dialogue:Intent is: atis_airfare
+INFO:dialogue:End of Dialogue Flow
+INFO:main:Final response of the input data: These are the flights and price I could findfrom russia to delhi: ABC Airlines: 300 USD, Alaska Airlines: 650 USD, Virgin Airlines: 200 USD, Panam Airlines: 250 USD.
+INFO:werkzeug:127.0.0.1 - - [25/May/2022 00:04:53] "POST /chat HTTP/1.1" 200 -
